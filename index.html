@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="index.css">
+    <title>VARPAD</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <h1 id="varpad">VARPAD</h1>
+    <div class="infocontainer">
+        <p><b>VARPAD</b> - a notepad app with the feature of creating variables and using them right in the text</p>
+        <h2>Source and download</h2>
+        <p>You can download source and app itself on the <a href="https://github.com/MK1231223/varpad/tree/main">github page</a></p>
+        <h2 id="controls">Controls</h2>
+        <p> <strong>F10</strong> - save your text file;<br> <strong>Shift + Scroll</strong> - scroll horizontally</p>
+        <h2 id="variable-creation">VARIABLE CREATION</h2>
+        <p> In the var section (<a id="varsection">||VAR:  ...  :END||</a>) you can interact with variables:</p>
+        <ul>
+        <li>$name = value   (Creates a variable)</li>
+        <li>%name = value   (Changes existing variable&#39;s value)</li>
+        </ul>
+        <h3 id="variable-types">VARIABLE TYPES</h3>
+        <ul>
+        <li><strong>Integer</strong> (123)</li>
+        <li><strong>Text</strong> (&quot;abc&quot;)</li>
+        </ul>
+        <h3 id="operations">OPERATIONS</h3>
+        <ul>
+        <li>Multiply *</li>
+        <li>Add +</li>
+        <li>Subtract -</li>
+        <li>Divide /</li>
+        </ul>
+        <h3 id="errors">ERRORS</h3>
+        <p>If an error occurs the var section will be red color <br> and in the &quot;upperbar&quot; text will be displayed with an error message
+            <hr>
+            <div class="errormessage">VAR ALREADY EXISTS!</div>
+            <br>
+            <a id="codexample">
+                <br><div id="odd">||VAR:</div>
+                <div id="even" class="vars">$apples = 1</div>
+                <div id="odd" class="vars">$apples = 2</div>
+                <div id="even">:END||</div>
+            </a>
+            <hr>
+        </p>
+        <h3 id="example">EXAMPLE</h3>
+        <p><img width="1040" height="659" alt="image" src="https://github.com/user-attachments/assets/e60ccdee-6551-4d9d-8b6c-af9b2dfb6df5" /></p>
+        <br>
+        MIT License<br>
+        Copyright (c) 2026 Yaroslav (MK1231223)<br>
+        <br>
+        Permission is hereby granted, free of charge, to any person obtaining a copy<br>
+        of this software and associated documentation files (the "Software"), to deal<br>
+        in the Software without restriction, including without limitation the rights<br>
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell<br>
+        copies of the Software, and to permit persons to whom the Software is<br>
+        furnished to do so, subject to the following conditions:<br>
+        <br>
+        The above copyright notice and this permission notice shall be included in all<br>
+        copies or substantial portions of the Software.<br>
+        <br>
+        <b>
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR<br>
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,<br>
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE<br>
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER<br>
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,<br>
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE<br>
+        SOFTWARE.<br>
+        </b>
+    </div>
+</body>
+
+</html>

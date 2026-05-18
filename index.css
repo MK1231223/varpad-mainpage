@@ -1,0 +1,49 @@
+.roboto-mono-websitefont {
+  font-family: "Roboto Mono", monospace;
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-style: normal;
+}
+
+#varpad {
+    text-align: center;
+}
+
+#varsection {
+    color: #0079f1;
+}
+
+/* ERROR CODE EXAMPLE */
+.vars {
+    padding-left: 2%;
+}
+
+#codexample {
+    color: red;
+}
+
+#even {
+    background-color: rgb(248, 248, 248);
+}
+
+#odd {
+    background-color: #e6e6e6;
+}
+/* ======================================== */
+
+body {
+    font-family: Roboto Mono;
+}
+
+.infocontainer {
+    width: fit-content;
+    height: fit-content;
+    margin: auto;
+}
+
+.errormessage {
+    width: 100%;
+    height: fit-content;
+    background-color: lightgray;
+    color: red;
+}
